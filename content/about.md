@@ -1,7 +1,7 @@
 +++
-title = "About"
+title = "关于"
 date = 2026-04-16T20:00:00+08:00
 draft = false
 +++
 
-Write a short introduction here, plus your projects and contact details.
+这里可以放你的个人介绍、项目经历、联系方式，或者站点说明。

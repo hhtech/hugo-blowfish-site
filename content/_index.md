@@ -4,7 +4,7 @@ description = "一个强大、轻量级的 Hugo 主题。"
 draft = false
 +++
 
-这是 `background` 的样式示例。
+这是一个更适合中文阅读、并保留 Blowfish 官方气质的演示首页。
 
 ```bash
 npx blowfish-tools
