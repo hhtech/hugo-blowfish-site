@@ -1,9 +1,13 @@
 +++
-title = "Hello, Blowfish"
-description = "A Hugo site deployed on GitHub Pages."
+title = "Blowfish"
+description = "一个强大、轻量级的 Hugo 主题。"
+draft = false
 +++
 
-This starter site already includes the Blowfish theme and a GitHub Actions
-workflow for GitHub Pages deployment.
+这是 `background` 的样式示例。
 
-You can now customize the homepage, add posts, and publish directly from GitHub.
+```bash
+npx blowfish-tools
+```
+
+[查看安装文档](docs/installation/)

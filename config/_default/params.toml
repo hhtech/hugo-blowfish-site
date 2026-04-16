@@ -3,10 +3,15 @@ defaultAppearance = "light"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
-mainSections = ["posts"]
+mainSections = ["docs"]
 
 [header]
   layout = "basic"
+
+[logo]
+  image = "blowfish-logo.png"
+  imageDark = "blowfish-logo.png"
+  title = "Blowfish"
 
 [footer]
   showAppearanceSwitcher = true
@@ -15,25 +20,37 @@ mainSections = ["posts"]
   showThemeAttribution = true
 
 [homepage]
-  layout = "page"
+  layout = "background"
   showRecent = true
-  recentLimit = 5
+  recentLimit = 10
   cardView = true
+  homepageImage = "homepage-background.svg"
 
 [article]
   showDate = true
   showReadingTime = true
   showTaxonomies = true
   showAuthor = true
+  showWordCount = true
 
 [list]
   showSummary = true
   showCards = true
+  cardView = true
+
+[homepage.background]
+  image = "homepage-background.svg"
+  imageDark = "homepage-background.svg"
+  blur = true
+  brightness = 0.65
+  opacity = 1.0
 
 [author]
-  name = "hhtech"
-  headline = "Hugo + Blowfish + GitHub Pages"
-  bio = "A Hugo site powered by Blowfish and deployed on GitHub Pages."
+  name = "Blowfish"
+  image = "blowfish-logo.png"
+  headline = "一个强大、轻量级的 Hugo 主题。"
+  bio = "这是一个尽量贴近 Blowfish 官方主页风格的演示站点。"
   links = [
-    { github = "https://github.com/hhtech" }
+    { x-twitter = "https://twitter.com/burufugu" },
+    { github = "https://github.com/nunocoracao/blowfish" }
   ]
