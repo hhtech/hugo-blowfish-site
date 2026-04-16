@@ -3,7 +3,7 @@ defaultContentLanguage = "en"
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 20
-theme = "blowfish"
+theme = "github.com/nunocoracao/blowfish/v2"
 title = "hhtech"
 
 [build]
