@@ -1,0 +1,32 @@
+baseURL = "https://hhtech.github.io/hugo-blowfish-site/"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+paginate = 10
+summaryLength = 20
+theme = "blowfish"
+title = "hhtech"
+
+[build]
+  writeStats = true
+
+[imaging]
+  anchor = "Center"
+
+[languages]
+  [languages.en]
+    contentDir = "content"
+    languageCode = "en"
+    languageName = "English"
+    weight = 1
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/nunocoracao/blowfish/v2"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

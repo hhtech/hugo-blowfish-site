@@ -1,0 +1,39 @@
+colorScheme = "blowfish"
+defaultAppearance = "light"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = true
+mainSections = ["posts"]
+
+[header]
+  layout = "basic"
+
+[footer]
+  showAppearanceSwitcher = true
+  showCopyright = true
+  showScrollToTop = true
+  showThemeAttribution = true
+
+[homepage]
+  layout = "page"
+  showRecent = true
+  recentLimit = 5
+  cardView = true
+
+[article]
+  showDate = true
+  showReadingTime = true
+  showTaxonomies = true
+  showAuthor = true
+
+[list]
+  showSummary = true
+  showCards = true
+
+[author]
+  name = "hhtech"
+  headline = "Hugo + Blowfish + GitHub Pages"
+  bio = "A Hugo site powered by Blowfish and deployed on GitHub Pages."
+  links = [
+    { github = "https://github.com/hhtech" }
+  ]
