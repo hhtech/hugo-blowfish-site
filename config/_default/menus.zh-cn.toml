@@ -1,19 +1,9 @@
 [[main]]
-  name = "文档"
-  pageRef = "/docs"
+  name = "文章"
+  pageRef = "/posts"
   weight = 10
 
 [[main]]
-  name = "快速开始"
-  pageRef = "/docs/getting-started"
+  name = "归档"
+  pageRef = "/posts"
   weight = 20
-
-[[main]]
-  name = "用户案例"
-  pageRef = "/users"
-  weight = 30
-
-[[main]]
-  name = "关于"
-  pageRef = "/about"
-  weight = 40

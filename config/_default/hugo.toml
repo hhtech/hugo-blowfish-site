@@ -4,7 +4,7 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 20
 theme = "github.com/nunocoracao/blowfish/v2"
-title = "Blowfish"
+title = "Xing Fu' Blog"
 
 [build]
   writeStats = true

@@ -3,8 +3,7 @@ defaultAppearance = "light"
 autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
-mainSections = ["docs"]
-logo = "blowfish-logo.png"
+mainSections = ["posts"]
 
 [header]
   layout = "basic"
@@ -34,10 +33,6 @@ logo = "blowfish-logo.png"
   cardView = true
 
 [author]
-  name = "Blowfish"
-  image = "blowfish-logo.png"
-  headline = "一个强大、轻量、适合中文内容展示的 Hugo 主题"
-  bio = "这个示例站点保留了 Blowfish 官方风格，同时使用更稳定的 profile 首页布局，方便你继续扩展。"
-  links = [
-    { github = "https://github.com/nunocoracao/blowfish" }
-  ]
+  name = "Xing Fu"
+  headline = "记录阅读、随想与生活片段"
+  bio = "这里收录从原博客迁移过来的文章内容，主题与部署方式保留 Hugo + Blowfish + GitHub Pages。"
