@@ -4,14 +4,10 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 mainSections = ["docs"]
+logo = "blowfish-logo.png"
 
 [header]
   layout = "basic"
-
-[logo]
-  image = "blowfish-logo.png"
-  imageDark = "blowfish-logo.png"
-  title = "Blowfish"
 
 [footer]
   showAppearanceSwitcher = true
@@ -40,9 +36,8 @@ mainSections = ["docs"]
 [author]
   name = "Blowfish"
   image = "blowfish-logo.png"
-  headline = "一个强大、轻量级的 Hugo 主题。"
-  bio = "这是一个稳定、适合中文阅读的 Blowfish 演示站点。"
+  headline = "一个强大、轻量、适合中文内容展示的 Hugo 主题"
+  bio = "这个示例站点保留了 Blowfish 官方风格，同时使用更稳定的 profile 首页布局，方便你继续扩展。"
   links = [
-    { x-twitter = "https://twitter.com/burufugu" },
     { github = "https://github.com/nunocoracao/blowfish" }
   ]

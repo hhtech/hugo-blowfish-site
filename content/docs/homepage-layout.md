@@ -1,9 +1,9 @@
 +++
-title = "主页布局"
+title = "首页布局"
 date = 2026-04-16T20:20:00+08:00
 draft = false
-summary = "Blowfish 支持多种首页布局，其中官方主页当前使用的是 background 风格。"
-tags = ["主页", "布局", "文档"]
+summary = "Blowfish 支持多种首页布局，这个示例选择了更稳定的 profile。"
+tags = ["首页", "布局", "文档"]
 +++
 
 Blowfish 常见的首页布局包括：
@@ -13,4 +13,4 @@ Blowfish 常见的首页布局包括：
 - `hero`
 - `background`
 
-当前这个站点使用 `background`，所以会更接近官方主页的视觉效果。
+这个站点目前使用 `profile`，原因是它和官方风格比较接近，同时在 GitHub Pages 上构建更稳定，适合作为长期可维护的中文版本。

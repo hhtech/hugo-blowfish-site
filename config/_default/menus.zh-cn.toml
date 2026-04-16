@@ -4,16 +4,16 @@
   weight = 10
 
 [[main]]
-  name = "简码"
-  pageRef = "/docs/shortcodes"
+  name = "快速开始"
+  pageRef = "/docs/getting-started"
   weight = 20
 
 [[main]]
-  name = "用户列表"
+  name = "用户案例"
   pageRef = "/users"
   weight = 30
 
 [[main]]
-  name = "周边"
-  url = "https://www.teepublic.com/user/blowfish-store/t-shirts"
+  name = "关于"
+  pageRef = "/about"
   weight = 40
