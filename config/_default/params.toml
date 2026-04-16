@@ -20,11 +20,10 @@ mainSections = ["docs"]
   showThemeAttribution = true
 
 [homepage]
-  layout = "background"
+  layout = "profile"
   showRecent = true
   recentLimit = 10
   cardView = true
-  homepageImage = "homepage-background.svg"
 
 [article]
   showDate = true
@@ -37,13 +36,6 @@ mainSections = ["docs"]
   showSummary = true
   showCards = true
   cardView = true
-
-[homepage.background]
-  image = "homepage-background.svg"
-  imageDark = "homepage-background.svg"
-  blur = true
-  brightness = 0.65
-  opacity = 1.0
 
 [author]
   name = "Blowfish"
