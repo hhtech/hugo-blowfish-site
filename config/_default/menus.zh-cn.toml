@@ -7,3 +7,8 @@
   name = "归档"
   pageRef = "/posts"
   weight = 20
+
+[[main]]
+  name = "关于"
+  pageRef = "/about"
+  weight = 30
